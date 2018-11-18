@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<title>Edward Smith Design</title> 
+<meta http-equiv="content-type" content="text/html; charset=utf-8" /> 
+<meta name="description" content="Edward Smith Design" /> 
+<meta name="viewport" content="width=device-width, initial-scale=1" /> 
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.css" />
+<link rel="stylesheet" href="https://use.typekit.net/srf8gmq.css">
+<link rel="stylesheet" href="css/main.css" />
+</head>
+
+<body>
+  <div class="main">
+    <div class="main-header"><h1>Edward Smith</h1></div>
+      <div class="reel-header"><h2>REEL</h2></div>
+        <div class='embed-container'><iframe src='https://player.vimeo.com/video/300677537' frameborder='0' webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe></div>
+      
+    <div class="other">
+      <button class="collapsible">OTHER WORK</button>
+        <div class="content">
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        </div>
+    </div>
+
+    <div class="about">
+      <button class="collapsible">ABOUT ME</button>
+        <div class="content">
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+      </div>
+    </div>
+
+  <footer><br><br><br><br><br><br><br><br><br><br>Made by Edward Smith <br>
+  &copy; Copyright 2018 </footer>
+
+  </div>
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.js"></script>
+<script src="scripts/script.js"></script>
+<script>
+var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.maxHeight){
+      content.style.maxHeight = null;
+    } else {
+      content.style.maxHeight = content.scrollHeight + "px";
+    } 
+  });
+}
+</script>
+
+</body>
+
+
+</html>
