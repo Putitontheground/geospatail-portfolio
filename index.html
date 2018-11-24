@@ -2,13 +2,13 @@
 <html lang="en">
 
 <head>
-<title>Edward Smith Design</title> 
+<title>Edward Smith</title> 
 <meta http-equiv="content-type" content="text/html; charset=utf-8" /> 
 <meta name="description" content="Edward Smith Design" /> 
 <meta name="viewport" content="width=device-width, initial-scale=1" /> 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.css" />
 <link rel="stylesheet" href="https://use.typekit.net/srf8gmq.css">
-<link rel="stylesheet" href="css/main.css" />
+<link rel="stylesheet" href="css/main.css"/>
 </head>
 
 <body>
@@ -27,7 +27,8 @@
     <div class="about">
       <button class="collapsible">ABOUT ME</button>
         <div class="content">
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+          <p>I’m a recent graduate from Victoria University of Wellington where I studied a Bachelor of Design Innovation in Media Design with a specialisation in 3D Design and Animation as well as Video Design. I have strong experience and skills in 3D and video, I also have experience in web design, photography and 3D printing. </p>
+         <a class="cv" href="assets/cv.pdf" download="cv">Download my CV</a><br><br>
       </div>
     </div>
 
@@ -39,22 +40,7 @@
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.js"></script>
 <script src="scripts/script.js"></script>
-<script>
-var coll = document.getElementsByClassName("collapsible");
-var i;
 
-for (i = 0; i < coll.length; i++) {
-  coll[i].addEventListener("click", function() {
-    this.classList.toggle("active");
-    var content = this.nextElementSibling;
-    if (content.style.maxHeight){
-      content.style.maxHeight = null;
-    } else {
-      content.style.maxHeight = content.scrollHeight + "px";
-    } 
-  });
-}
-</script>
 
 </body>
 
