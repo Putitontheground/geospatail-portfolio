@@ -6,35 +6,61 @@ body {
 }
 
 h1 {
-  margin-top: 0;
-  margin-left: -20px;
+  margin: 0px 0px 0px -20px;
   font-weight: 700;
-  font-size: 2em;
+  font-size: 2.2em;
   font-style: normal;
-  margin-bottom: 40px; 
   width: 100%;
   text-align: right;
 }
 
 h2 {
+  margin: 0 0 10 0px;
+  padding: 18px 10px 18px 10px;
   font-weight: 400;
-  font-size: 1em;
+  font-size: 1.2em;
   font-style: normal;
-  margin-right: 20px;
-  margin-bottom: 20px; 
-  border-bottom: 1px solid black;
-  padding-bottom: 20px;
   width: 100%;
   text-align: left;
 }
 
 div.other {
-  border-bottom: 1px solid black;
+  margin-top:20px;
+}
+
+div.work1 {
+  width: 45%;
+  height: 160px;
+  background-color: red;
+  float:left;
+  margin: 10px 0px 10px 0px;
+}
+
+div.work2 {
+  width: 45%;
+  height: 160px;
+  background-color: blue;
+  float:right;
+  margin: 10px 0px 10px 0px;
+}
+
+div.work3 {
+  width: 45%;
+  height: 160px;
+  background-color: green;
+  float:left;
+  margin: 10px 0px 10px 0px;
+}
+
+div.work4 {
+  width: 45%;
+  height: 160px;
+  background-color: yellow;
+  float:right;
+  margin: 10px 0px 10px 0px;
 }
 
 div.about {
-  border-bottom: 1px solid black;
-
 }
 
 footer {
@@ -48,18 +74,18 @@ footer {
 }
 
 a.cv {
-  background-color: #515151;
-  color: white;
-  padding: 8px 10px 10px 10px;
+  background-color: #c1c1c1;
+  color: black;
+  padding: 3px 5px 5px 5px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
   border-radius: 2px;
-  margin-left: 10px;
+  margin-left: 2px;
 }
 
 a.cv:hover, a.cv:active {
-  background-color: #787878;
+  background-color: #d1d1d1;
 }
 
 .embed-container { 
@@ -81,12 +107,12 @@ a.cv:hover, a.cv:active {
 .collapsible {
   font-family: halyard-display, sans-serif;
   font-weight: 400;
-  font-size: 1em;
+  font-size: 1.2em;
   font-style: normal;
   background-color: #fff;
   color: black;
   cursor: pointer;
-  padding: 18px 0px 18px 0px;
+  padding: 18px 10px 18px 10px;
   width: 100%;
   border:none;
   outline: none;
@@ -110,6 +136,8 @@ a.cv:hover, a.cv:active {
 }
 
 .content {
+  font-weight: 300;
+  font-size: 1em;
   padding: 0 18px;
   max-height: 0;
   margin-bottom: 18px;
@@ -132,15 +160,65 @@ a.cv:hover, a.cv:active {
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
+  h1 {
 
+  }
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
 
+  body {
+    padding: 4% 25% 4% 25%;
+  }
+
+  h1 {
+    font-size: 3em;
+  }
+
+  h2 {
+    font-size: 2em;
+  }
+
+  footer {
+    font-size: 1.2em;
+  }
+
+  .collapsible {
+    font-size: 2em;
+  }
+
+  .content {
+    font-size: 1.5em;
+  }
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
+
+  body {
+    padding: 4% 25% 4% 25%;
+  }
+
+  h1 {
+    font-size: 3em;
+  }
+
+  h2 {
+    font-size: 2em;
+  }
+
+  footer {
+    font-size: 1.2em;
+  }
+
+  .collapsible {
+    font-size: 2em;
+  }
+
+  .content {
+    font-size: 1.5em;
+  }
+
 
 } 
