@@ -24,43 +24,20 @@ h2 {
   text-align: left;
 }
 
+h3 {
+  font-weight: 400;
+  font-size: 1em;
+  margin: 5px 10px 0px 10px;
+  text-align: right;
+}
+
+
 div.other {
   margin-top:20px;
 }
 
-div.work1 {
-  width: 45%;
-  height: 160px;
-  background-color: red;
-  float:left;
-  margin: 10px 0px 10px 0px;
-}
-
-div.work2 {
-  width: 45%;
-  height: 160px;
-  background-color: blue;
-  float:right;
-  margin: 10px 0px 10px 0px;
-}
-
-div.work3 {
-  width: 45%;
-  height: 160px;
-  background-color: green;
-  float:left;
-  margin: 10px 0px 10px 0px;
-}
-
-div.work4 {
-  width: 45%;
-  height: 160px;
-  background-color: yellow;
-  float:right;
-  margin: 10px 0px 10px 0px;
-}
-
 div.about {
+  display: inline;
 }
 
 footer {
@@ -81,11 +58,74 @@ a.cv {
   text-decoration: none;
   display: inline-block;
   border-radius: 2px;
-  margin-left: 2px;
+  margin-left: 1px;
 }
 
 a.cv:hover, a.cv:active {
   background-color: #d1d1d1;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  grid-gap: 15px;
+  padding-bottom: 15px;
+}
+
+article {
+  position: relative;
+}
+
+.fade {
+    position: relative;
+    width: 50%;
+}
+
+.article-img {
+  transition: .5s ease;
+  backface-visibility: hidden;
+  opacity: 1;
+  height: 150px;
+  width: 100%;
+  object-fit: cover;
+  padding: 20px 0px 0px 0px;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 49%;
+  left: 50%;
+  transform: translate(-50%, -40%);
+  -ms-transform: translate(-50%, -40%);
+  text-align: center;
+}
+
+.text {
+  width: 50%;
+  border-radius: 2px;
+  background-color: black;
+  color: white;
+  font-size: 16px;
+  padding: 16px 32px;
+}
+
+.container:hover .article-img {
+  opacity: 0.3;
+}
+
+.container:hover .middle {
+  opacity: 1;
+}
+
+.article-title {
+  color: white;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding: 10px;
+  background-color: rgba(0, 0, 0, 0.2);
 }
 
 .embed-container { 
@@ -135,10 +175,10 @@ a.cv:hover, a.cv:active {
   content: "\2212";
 }
 
-.content {
+.content{
+  padding: 0px;
   font-weight: 300;
   font-size: 1em;
-  padding: 0 18px;
   max-height: 0;
   margin-bottom: 18px;
   overflow: hidden;
@@ -146,6 +186,12 @@ a.cv:hover, a.cv:active {
   background-color: #f1f1f1;
   border-radius: 2px;
 }
+
+.two {
+  padding: 0 18px;
+  margin-bottom: 0;
+}
+
 
 
  /* Extra small devices (phones, 600px and down) */
