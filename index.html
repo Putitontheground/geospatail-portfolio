@@ -23,33 +23,59 @@
           <div class="grid">
           <article class="big">
             <div class="container">
-            <img class="article-img" src="http://placekitten.com/500/300" alt=" " />         
+              <img src="http://placekitten.com/500/300" onclick="openModal();currentSlide(1)" class="article-img" alt=" " />         
             <div class="other-title"><h3>Creative Coding</h3></div>
             </div>
           </article>
           <article class="big">
             <div class="container">
-            <img class="article-img" src="http://placekitten.com/500/300" alt=" " />         
-            <div class="other-title"><h3>Info Graphic</h3></div>
+              <img src="http://placekitten.com/500/300" onclick="openModal();currentSlide(2)" class="article-img" alt=" " />         
+            <div class="other-title"><h3>Infographic</h3></div>
             </div>
           </article>
-         <article class="big">
+          <article class="big">
             <div class="container">
-            <img class="article-img" src="http://placekitten.com/500/300" alt=" " />         
-            <div class="other-title"><h3>3D Printing</h3></div>
+              <img src="http://placekitten.com/500/300" onclick="openModal();currentSlide(3)" class="article-img" alt=" " />          
+              <div class="other-title"><h3>3D Printing</h3></div>
             </div>
           </article>
-<!--           <article>
-            <div class="container">
-            <img class="article-img" src="https://placekitten.com/500/300" alt=" " />
-              <div class="middle">
-                <div class="text">3D Printing</div>
-              </div>
-            </div>
-          </article> -->
         </div>
+
+        <div id="myModal" class="modal">
+          <span class="close cursor" onclick="closeModal()">9644</span>
+          <div class="modal-content">
+
+            <div class="mySlides">
+              <div class="numbertext">1 / 4</div>
+              <img src="http://placekitten.com/500/300" style="width:100%">
+            </div>
+
+            <div class="mySlides">
+              <div class="numbertext">2 / 4</div>
+              <img src="http://placekitten.com/500/300" style="width:100%">
+            </div>
+
+            <div class="mySlides">
+              <div class="numbertext">3 / 4</div>
+              <img src="http://placekitten.com/500/300" style="width:100%">
+            </div>
+
+            <div class="mySlides">
+              <div class="numbertext">4 / 4</div>
+              <img src="http://placekitten.com/500/300" style="width:100%">
+            </div>
+
+            <!-- Next/previous controls -->
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+          </div>
+        </div>      
       </section>
     </div>
+
+
+
 
     <div class="about">
       <button class="collapsible">ABOUT ME</button>
