@@ -1,66 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
 
-<p>Edward Smith </p>
-<div>
-<div>
-<h1>Edward Smith</h1>
-</div>
-<div>
-<h2>REEL</h2>
-</div>
-<div><iframe src="https://player.vimeo.com/video/300677537" width="300" height="150" frameborder="0" allowfullscreen="allowfullscreen"></iframe></div>
-<div><button>OTHER WORK</button>
-<section>
-<div>
-<article>
-<div><img src="http://placekitten.com/1000/600" alt=" " />
-<div>
-<h3>Creative Coding</h3>
-</div>
-</div>
-</article>
-<article>
-<div><img src="http://placekitten.com/1000/600" alt=" " />
-<div>
-<h3>Infographic</h3>
-</div>
-</div>
-</article>
-<article>
-<div><img src="http://placekitten.com/1000/600" alt=" " />
-<div>
-<h3>3D Printing</h3>
-</div>
-</div>
-</article>
-</div>
-<div>
-<div>
-<div>╳
-<div>1 / 6</div>
-<img src="http://placekitten.com/1000/600" alt="Pellentesque convallis diam eu purus semper, sed accumsan risus congue. Donec eu bibendum mi. Integer convallis lorem purus, ac pulvinar quam suscipit vel.1" /></div>
-<div>╳
-<div>2 / 6</div>
-<img src="http://placekitten.com/1000/600" alt="Pellentesque convallis diam eu purus semper, sed accumsan risus congue. Donec eu bibendum mi. Integer convallis lorem purus, ac pulvinar quam suscipit vel.2" /></div>
-<div>╳
-<div>3 / 6</div>
-<img src="http://placekitten.com/1000/600" alt="Pellentesque convallis diam eu purus semper, sed accumsan risus congue. Donec eu bibendum mi. Integer convallis lorem purus, ac pulvinar quam suscipit vel.3" /></div>
-<div>╳
-<div>4 / 6</div>
-<img src="http://placekitten.com/1000/600" alt="Pellentesque convallis diam eu purus semper, sed accumsan risus congue. Donec eu bibendum mi. Integer convallis lorem purus, ac pulvinar quam suscipit vel.4" /></div>
-<div>╳
-<div>5 / 6</div>
-<img src="http://placekitten.com/1000/600" alt="Pellentesque convallis diam eu purus semper, sed accumsan risus congue. Donec eu bibendum mi. Integer convallis lorem purus, ac pulvinar quam suscipit vel.5" /></div>
-<div>╳
-<div>6 / 6</div>
-<img src="http://placekitten.com/1000/600" alt="Pellentesque convallis diam eu purus semper, sed accumsan risus congue. Donec eu bibendum mi. Integer convallis lorem purus, ac pulvinar quam suscipit vel.6" /></div>
- <a>❮</a> <a>❯</a>
-</div>
-</div>
-</section>
-</div>
-<div><button>CONTACT ME</button>
-<div>
-<p><strong>Email:</strong> edward-smith-@outlook.com<br /><strong>Phone:</strong> +0064 02108457235 <br /><br />I&rsquo;m a recent graduate from Victoria University of Wellington where I studied a Bachelor of Design Innovation in Media Design with a specialisation in 3D Design and Animation as well as Video Design. I have strong experience and skills in 3D and video, I also have experience in web design, creative coding, photography and 3D printing. <br /><br /><a href="assets/cv.pdf" download="cv">Download my CV</a><br /><br /></p>
-</div>
-</div>
-<footer><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />Made by Edward Smith <br /> &copy; Copyright 2018</footer></div>
+<head>
+<title>Edward Smith</title> 
+<meta http-equiv="content-type" content="text/html; charset=utf-8" /> 
+<meta name="description" content="Edward Smith Design" /> 
+<meta name="viewport" content="width=device-width, initial-scale=1" /> 
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.css" />
+<link rel="stylesheet" href="https://use.typekit.net/srf8gmq.css">
+<link rel="stylesheet" href="css/main.css"/>
+</head>
+
+<body>
+  <div class="main">
+    <div class="main-header"><h1>Edward Smith</h1></div>
+      <div class="reel-header"><h2>REEL</h2></div>
+        <div class='embed-container'><iframe src='https://player.vimeo.com/video/300677537' frameborder='0' webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe></div>
+      
+    <div class="other">
+      <button class="collapsible">OTHER WORK</button>
+        <section class="content">
+          <div class="grid">
+          <article class="big">
+            <div class="container">
+              <img src="http://placekitten.com/1000/600" onclick="openModal();currentSlide(1)" class="article-img" alt=" " />         
+            <div class="other-title"><h3>Creative Coding</h3></div>
+            </div>
+          </article>
+          <article class="big">
+            <div class="container">
+              <img src="http://placekitten.com/1000/600" onclick="openModal();currentSlide(2)" class="article-img" alt=" " />         
+            <div class="other-title"><h3>Infographic</h3></div>
+            </div>
+          </article>
+          <article class="big">
+            <div class="container">
+              <img src="http://placekitten.com/1000/600" onclick="openModal();currentSlide(3)" class="article-img" alt=" " />          
+              <div class="other-title"><h3>3D Printing</h3></div>
+            </div>
+          </article>
+        </div>
+
+        <div id="myModal" class="modal">
+          
+          <div class="modal-content">
+            <div class="mySlides">
+              <span class="close cursor" onclick="closeModal()">&#9587;</span>
+              <div class="numbertext">1 / 6</div>
+              <img class="demo" src="http://placekitten.com/1000/600" style="width:100%"  alt="Pellentesque convallis diam eu purus semper, sed accumsan risus congue. Donec eu bibendum mi. Integer convallis lorem purus, ac pulvinar quam suscipit vel.1"></div>
+
+            <div class="mySlides">
+              <span class="close cursor" onclick="closeModal()">&#9587;</span>
+              <div class="numbertext">2 / 6</div>
+              <img class="demo" src="http://placekitten.com/1000/600" style="width:100%"  alt="Pellentesque convallis diam eu purus semper, sed accumsan risus congue. Donec eu bibendum mi. Integer convallis lorem purus, ac pulvinar quam suscipit vel.2"></div>
+
+            <div class="mySlides">
+              <span class="close cursor" onclick="closeModal()">&#9587;</span>
+              <div class="numbertext">3 / 6</div>
+              <img class="demo" src="http://placekitten.com/1000/600" style="width:100%"  alt="Pellentesque convallis diam eu purus semper, sed accumsan risus congue. Donec eu bibendum mi. Integer convallis lorem purus, ac pulvinar quam suscipit vel.3"></div>
+
+            <div class="mySlides">
+              <span class="close cursor" onclick="closeModal()">&#9587;</span>
+              <div class="numbertext">4 / 6</div>
+              <img class="demo" src="http://placekitten.com/1000/600" style="width:100%" alt="Pellentesque convallis diam eu purus semper, sed accumsan risus congue. Donec eu bibendum mi. Integer convallis lorem purus, ac pulvinar quam suscipit vel.4"></div>
+
+            <div class="mySlides">
+              <span class="close cursor" onclick="closeModal()">&#9587;</span>
+              <div class="numbertext">5 / 6</div>
+              <img class="demo" src="http://placekitten.com/1000/600" style="width:100%" alt="Pellentesque convallis diam eu purus semper, sed accumsan risus congue. Donec eu bibendum mi. Integer convallis lorem purus, ac pulvinar quam suscipit vel.5"></div>
+
+            <div class="mySlides">
+              <span class="close cursor" onclick="closeModal()">&#9587;</span>
+
+              <div class="numbertext">6 / 6</div>
+              <img class="demo" src="http://placekitten.com/1000/600" style="width:100%" alt="Pellentesque convallis diam eu purus semper, sed accumsan risus congue. Donec eu bibendum mi. Integer convallis lorem purus, ac pulvinar quam suscipit vel.6"></div>
+
+            <!-- Next/previous controls -->
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+            <div class="caption-container">
+              <p id="caption"></p>
+            </div>
+        </div>      
+      </section>
+    </div>
+
+    <div class="about">
+      <button class="collapsible">CONTACT ME</button>
+        <div class="content">
+          <p class="two"><strong>Email:</strong> edward-smith-@outlook.com<br><strong>Phone:</strong> +0064 02108457235 <br><br>I’m a recent graduate from Victoria University of Wellington where I studied a Bachelor of Design Innovation in Media Design with a specialisation in 3D Design and Animation as well as Video Design. I have strong experience and skills in 3D and video, I also have experience in web design, creative coding, photography and 3D printing. <br><br><a class="cv" href="assets/cv.pdf" download="cv">Download my CV</a><br><br></p>
+         
+      </div>
+    </div>
+
+  <footer><br><br><br><br><br><br><br><br><br><br>Made by Edward Smith <br>
+  &copy; Copyright 2018 </footer>
+
+  </div>
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.js"></script>
+<script src="scripts/script.js"></script>
+
+
+</body>
+
+
+</html>
