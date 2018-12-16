@@ -1,2 +1,3 @@
 # portfolio
-Portfolio site
+Portfolio site for Edward Smith.
+Copyright 2018
