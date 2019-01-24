@@ -61,6 +61,11 @@ a.cv {
   margin-left: 1px;
 }
 
+a.code {
+  color: black;
+  text-decoration: underline;
+}
+
 a.cv:hover, a.cv:active {
   background-color: #d1d1d1;
 }
@@ -304,7 +309,7 @@ p#caption {
 .caption-container {
   font-size: 1.2em;
   text-align: justify;
-  background-color: rgba(255, 255, 255, .9);
+  background-color: rgba(255, 255, 255, .8);
   padding: 2px 25px;
   margin-top: 5px;
   margin-bottom: 0px;
