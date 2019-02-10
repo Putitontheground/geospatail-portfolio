@@ -209,7 +209,7 @@ article {
   left: 0;
   top: 0;
   width: 100%;
-  height: 100%;
+  height: 120%;
   max-height: 1000px;
   overflow: auto;
   background-color: rgba(0, 0, 0, 0.6);
@@ -339,7 +339,7 @@ img.hover-shadow {
 }
 
  /* Extra small devices (phones, 600px and down) */
-@media screen and (max-width: 1280px) and (min-width: 600px) {
+@media screen and (max-width: 1400px) and (min-width: 600px) {
   div.modal-content {
     max-width: 750px;
   }
