@@ -18,140 +18,89 @@
         <div class='embed-container'><iframe src='https://player.vimeo.com/video/312934102' frameborder='0' webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe></div>
       
     <div class="other">
-      <button class="collapsible">LIST OF WORK</button>
+      <button class="collapsible" onclick="openModal();currentSlide(1)">GALLERY OF WORK</button>
         <section class="content">
-          <div class="grid">
-          <article class="big">
-            <div class="container">
-              <img src="assets/audiovis_pic.png" onclick="openModal();currentSlide(1)" class="article-img" alt=" " />          
-              <div class="other-title"><h3>Audio-Visual</h3></div>
-            </div>
-          </article>
-          <article class="big">
-            <div class="container">
-              <img src="assets/info_pic.png" onclick="openModal();currentSlide(2)" class="article-img" alt=" " />         
-            <div class="other-title"><h3>Infographic</h3></div>
-            </div>
-          </article>
-          <article class="big">
-            <div class="container">
-              <img src="assets/coding_pic.png" onclick="openModal();currentSlide(3)" class="article-img" alt=" " />          
-              <div class="other-title"><h3>Creative Coding</h3></div>
-            </div>
-          </article>
-          <article class="big">
-            <div class="container">
-              <img src="assets/print_pic1.png" onclick="openModal();currentSlide(4)" class="article-img" alt=" " />          
-              <div class="other-title"><h3>3D Printing</h3></div>
-            </div>
-          </article>
-          <article class="big">
-            <div class="container">
-              <img src="assets/3d_pic.png" onclick="openModal();currentSlide(7)" class="article-img" alt=" " />          
-              <div class="other-title"><h3>3D</h3></div>
-            </div>
-          </article>
-          <article class="big">
-            <div class="container">
-              <img src="assets/infog_pic.png" onclick="openModal();currentSlide(10)" class="article-img" alt=" " />          
-              <div class="other-title"><h3>Video</h3></div>
-            </div>
-          </article>
-        </div>
+          
 
         <div id="myModal" class="modal">
           
           <div class="modal-content">
             <div class="mySlides">
               <span class="close cursor" onclick="closeModal()">&#9587;</span>
-              <div class="numbertext">1 / 10</div>
+              <div class="numbertext">1 / 11</div>
               <div class='embed-container'><iframe class="demo" src='https://player.vimeo.com/video/300677537' frameborder='0' webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe></div>
-              <div class="caption-container">
-              <p>This video was created for an audio visual project, I used a combination of Maya, After Effects and Mandelbulber to create the visuals and I made the soundtrack in Audition.</p>
-              </div>
+              <div class="caption-container"><p class="slide">Audio Visual - </p></div>
             </div>
 
             <div class="mySlides">
               <span class="close cursor" onclick="closeModal()">&#9587;</span>
-              <div class="numbertext">2 / 10</div>
+              <div class="numbertext">2 / 11</div>
               <img class="demo" src="assets/info_pic.png" style="width:100%">
-              <div class="caption-container">
-              <p>Flag Referendum 2.0 was a project in which I designed flags that doubled as infographics to "rebrand" New Zealand. </p>
-              </div>
+              <div class="caption-container"><p class="slide">Graphic Work - Rebranding New Zealand - </p></div>
             </div>
 
             <div class="mySlides">
               <span class="close cursor" onclick="closeModal()">&#9587;</span>
-              <div class="numbertext">3 / 10</div>
+              <div class="numbertext">3 / 11</div>
+              <img class="demo" src="assets/unity-graphic.png" style="width:100%">
+              <div class="caption-container"><p class="slide">Graphic Work - Unity Books Bookmark - </p></div>
+            </div>
+
+            <div class="mySlides">
+              <span class="close cursor" onclick="closeModal()">&#9587;</span>
+              <div class="numbertext">4 / 11</div>
               <img class="demo" src="assets/coding_pic.png" style="width:100%">
-              <div class="caption-container">
-              <p>A range of coding experiments made in p5.js, for live versions of the experiments and more click <a class="code" href="https://bl.ocks.org/Putitontheground">here.</a></p>
-              </div>
+              <div class="caption-container"><p class="slide">Coding Experiments - for a live version click <a class="code" href="https://bl.ocks.org/Putitontheground">here</a> - </p></div>
             </div>
 
             <div class="mySlides">
               <span class="close cursor" onclick="closeModal()">&#9587;</span>
-              <div class="numbertext">4 / 10</div>
+              <div class="numbertext">5 / 11</div>
               <img class="demo" src="assets/print_pic1.png" style="width:100%">
-              <div class="caption-container">
-              <p>Tasked with exploring simulations in Maya, I set out to play with a rigged human and nCloth. I 3D printed a snapshot, painted and then cast in resin.</p>
-              </div>
+              <div class="caption-container"><p class="slide">3D Printing and Simulations - </p></div>
             </div>
 
             <div class="mySlides">
               <span class="close cursor" onclick="closeModal()">&#9587;</span>
-              <div class="numbertext">5 / 10</div>
+              <div class="numbertext">6 / 11</div>
               <img class="demo" src="assets/print_pic2.png" style="width:100%">
-              <div class="caption-container">
-              <p>Tasked with exploring simulations in Maya, I set out to play with a rigged human and nCloth. I 3D printed a snapshot, painted and then cast in resin.</p>
-              </div>
+              <div class="caption-container"><p class="slide">3D Printing and Simulations - </p></div>
             </div>
 
             <div class="mySlides">
               <span class="close cursor" onclick="closeModal()">&#9587;</span>
-              <div class="numbertext">6 / 10</div>
+              <div class="numbertext">7 / 11</div>
               <img class="demo" src="assets/print_pic3.png" style="width:100%">
-              <div class="caption-container">
-              <p>Tasked with exploring simulations in Maya, I set out to play with a rigged human and nCloth. I 3D printed a snapshot, painted and then cast in resin.</p>
-              </div>
+              <div class="caption-container"><p class="slide">3D Printing and Simulations - </p></div>
             </div>
 
             <div class="mySlides">
               <span class="close cursor" onclick="closeModal()">&#9587;</span>
-              <div class="numbertext">7 / 10</div>
+              <div class="numbertext">8 / 11</div>
               <img class="demo" src="assets/3d_pic.png" style="width:100%">
-              <div class="caption-container">
-              <p>A collection of various 3D projects I have worked on.</p>
-              </div>
+              <div class="caption-container"><p class="slide">3D Material Exploration - </p></div>
             </div>
 
             <div class="mySlides">
               <span class="close cursor" onclick="closeModal()">&#9587;</span>
-              <div class="numbertext">8 / 10</div>
+              <div class="numbertext">9 / 11</div>
               <img class="demo" src="assets/3d_pic2.png" style="width:100%">
-              <div class="caption-container">
-              <p>A collection of various 3D projects I have worked on.</p>
-              </div>
+              <div class="caption-container"><p class="slide">3D Animation - </p></div>
             </div>
 
             <div class="mySlides">
               <span class="close cursor" onclick="closeModal()">&#9587;</span>
-              <div class="numbertext">9 / 10</div>
+              <div class="numbertext">10 / 11</div>
               <img class="demo" src="assets/3d_pic3.png" style="width:100%">
-              <div class="caption-container">
-              <p>A collection of various 3D projects I have worked on.</p>
-              </div>
+              <div class="caption-container"><p class="slide">Toi Poneke Exhibition Collaboration - </p></div>
             </div>
 
             <div class="mySlides">
               <span class="close cursor" onclick="closeModal()">&#9587;</span>
-              <div class="numbertext">10 / 10</div>
-              <div class='embed-container'><iframe src="https://player.vimeo.com/video/299166184" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div><div class="caption-container">
-              <p>Made from several thousand individual images, Coast is a form of data visualisation where I showed the expansive coastline of New Zealand in video format.</p>
-              </div>
+              <div class="numbertext">11 / 11</div>
+              <div class='embed-container'><iframe src="https://player.vimeo.com/video/299166184" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
+              <div class="caption-container"><p class="slide">Data Visualisation Video - </p></div>
             </div>
-              
-
             <!-- Next/previous controls -->
             <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
             <a class="next" onclick="plusSlides(1)">&#10095;</a>
@@ -159,13 +108,16 @@
         </div>      
       </section>
     </div>
+    </div>
 
     <div class="about">
       <button class="collapsible">CONTACT ME</button>
         <div class="content">
-          <p class="two"><strong>Email:</strong> edward-smith-@outlook.com<br><strong>Phone:</strong> 02108457235 <br><br>I’m a recent graduate from Victoria University of Wellington where I studied a Bachelor of Design Innovation in Media Design with a specialisation in Video Design, 3D and Animation. I have very strong skills in these areas, and I have also worked on multiple projects in web design, creative coding, photography and 3D printing.<br><br>
+          <p class="two"><strong>Email:</strong> edward-smith-@outlook.com<br><strong>Phone:</strong> 02108457235 <br><br>I’m a recent graduate from Victoria University of Wellington where I studied a Bachelor of Design Innovation in Media Design with a specialisation in Video Design, 3D and Animation. I am currently looking for a role where I can learn and grow while also adding a fresh perspective on every project.<br><br>
 
-          While my interests mostly lie within the realm of video post production my range of skills would not prevent me from working in any other area. I am currently in the process of learning Houdini and Nuke.
+          I am a versatile and hardworking employee with a wide array of skills to bring to the table, if I sound like like a fit for your team or project feel free to contact me on the info provided.
+
+
           <br><br><a class="cv" href="assets/Resume.pdf" download="resume">Download my Resume</a><br><br></p>
          
       </div>

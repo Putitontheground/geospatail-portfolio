@@ -167,9 +167,8 @@ article {
   outline: none;
   text-align: left;
 }
-
-.active, .collapsible:hover {
-  background-color: #fff;
+ .collapsible:hover {
+  font-style: italic;
 }
 
 .collapsible:after {
@@ -180,8 +179,8 @@ article {
   margin-left: 5px;
 }
 
-.active:after {
-  content: "\2212";
+.slide{
+  font-weight: 400;
 }
 
 .content{
@@ -192,8 +191,7 @@ article {
   margin-bottom: 18px;
   overflow: hidden;
   transition: max-height 0.3s ease-out;
-  background-color: #ededed;
-  border-radius: 2px;
+  background-color: 0 0 0 0;
 }
 
 .two {
@@ -224,6 +222,7 @@ article {
   width: 90%;
   height: auto;
   max-width: 1200px;
+  border-radius: 5px;
 }
 
 /* The Close Button */
@@ -265,16 +264,16 @@ article {
   font-weight: normal;
   font-size: 1.2em;
   transition: 0.6s ease;
-  border-radius: 0 1px 1px 0;
+  border-radius: 0 5px 5px 0;
   user-select: none;
   -webkit-user-select: none;
-  background-color: rgba(0, 0, 0, 0.3);
+  background-color: rgba(0, 0, 0, 0.1);
 }
 
 /* Position the "next button" to the right */
 .next {
   right: 0;
-  border-radius: 1px 0 0 1px;
+  border-radius: 5px 0 0 5px;
 }
 
 /* On hover, add a black background color with a little bit see-through */
@@ -300,21 +299,21 @@ img {
 
 p#caption {
   font-family: halyard-display, sans-serif;
-  font-weight: 300;
+  font-weight: 400;
   font-size: 1em;
   font-style: normal;
   margin: 1px 0px 6px 0px;
 }
 
 .caption-container {
-  font-size: .8em;
-  text-align: justify;
-  background-color: rgba(255, 255, 255, .8);
+  font-size: 1em;
+  text-align: right;
+  background-color: rgba(255, 255, 255, .9);
   padding: 2px 25px;
   margin-top: 5px;
   margin-bottom: 0px;
   color: black;
-  border-radius: 0px 0px 2px 2px;
+  border-radius: 0px 0px 5px 5px;
 }
 
 .caption {
@@ -430,3 +429,4 @@ img.hover-shadow {
   }
 
 } 
+
