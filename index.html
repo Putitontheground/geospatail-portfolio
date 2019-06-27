@@ -2,110 +2,144 @@
 <html lang="en">
 
 <head>
-  <title>Edward Smith</title> 
-  <meta http-equiv="content-type" content="text/html; charset=utf-8" /> 
-  <meta name="description" content="Edward Smith Design" /> 
-  <meta name="viewport" content="width=device-width, initial-scale=1" /> 
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.css" />
-  <link rel="stylesheet" href="https://use.typekit.net/srf8gmq.css">
-  <link rel="stylesheet" href="css/main.css"/>
+<title>Edward Smith</title> 
+<meta http-equiv="content-type" content="text/html; charset=utf-8" /> 
+<meta name="description" content="Edward Smith Design" /> 
+<meta name="viewport" content="width=device-width, initial-scale=1" /> 
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.css" />
+<link rel="stylesheet" href="https://use.typekit.net/srf8gmq.css">
+<link rel="stylesheet" href="css/main.css"/>
 </head>
 
 <body>
   <div class="main">
-    <div class="box" id="box1"></div>
-    <div class="box" id="box2"></div>
-    <div class="box" id="box3"></div>
-    <div class="box" id="box4"></div>
     <div class="main-header"><h1>Edward Smith</h1></div>
-    <div class="reel-header"><h2>REEL</h2></div>
-
-    <div class='embed-container'><iframe src='https://player.vimeo.com/video/312934102' frameborder='0' webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe></div>
+      <div class="reel-header"><h2>WORK</h2></div>
+        
+      
     <div class="other">
-      <button class="collapsible" onclick="openModal();currentSlide(1)">GALLERY OF WORK</button>
+          <div class="grid">
+          <article class="big">
+            <div class="container">
+              <img src="assets/audiovis_pic.png" onclick="openModal();currentSlide(1)" class="article-img" alt=" " />          
+              <div class="other-title"><h3>Reel</h3></div>
+            </div>
+          </article>
 
-      <div id="myModal" class="modal">
+          <article class="big">
+            <div class="container">
+              <img src="assets/unity-graphic.png" onclick="openModal();currentSlide(2)" class="article-img" alt=" " />          
+              <div class="other-title"><h3>Graphic</h3></div>
+            </div>
+          </article>
+          <article class="big">
+            <div class="container">
+              <img src="assets/infog_pic.png" onclick="openModal();currentSlide(4)" class="article-img" alt=" " />          
+              <div class="other-title"><h3>Video</h3></div>
+            </div>
+          </article>
+          <article class="big">
+            <div class="container">
+              <img src="assets/3d_pic.png" onclick="openModal();currentSlide(5)" class="article-img" alt=" " />          
+              <div class="other-title"><h3>3D</h3></div>
+            </div>
+          </article>
+          <article class="big">
+            <div class="container">
+              <img src="assets/coding_pic.png" onclick="openModal();currentSlide(9)" class="article-img" alt=" " />          
+              <div class="other-title"><h3>Creative Coding</h3></div>
+            </div>
+          </article>
+        </div>
+
+        <div id="myModal" class="modal">
         <div class="modal-content">
           
           <div class="mySlides">
             <span class="close cursor" onclick="closeModal()">&#9587;</span>
-            <div class="numbertext">1 / 9</div>
+            <div class="numbertext">1 / 10</div>
             <div class="black">
-              <img class="demo" src="assets/info_pic.png" style="width:100%"></div>
-              <div class="caption-container"><p class="slide">Graphic Work - Rebranding New Zealand - </p></div>
-            </div>
-
-
-
-          <div class="mySlides">
-            <span class="close cursor" onclick="closeModal()">&#9587;</span>
-            <div class="numbertext">2 / 9</div>
-            <div class="black">
-              <div class='embed-container'><iframe class="demo" src='https://player.vimeo.com/video/300677537' frameborder='0' webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe></div></div>
-              <div class="caption-container"><p class="slide">Audio Visual - </p></div>
-            </div>
-
+              <div id="demo1" class='embed-container'><iframe src='https://player.vimeo.com/video/312934102' frameborder='0' webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe></div></div>
+              <div class="caption-container"><p class="slide">Collection of Video Work from 2018 - </p></div>
             
+          </div>
+
 
               <div class="mySlides">
                 <span class="close cursor" onclick="closeModal()">&#9587;</span>
-                <div class="numbertext">3 / 9</div>
+                <div class="numbertext">2 / 10</div>
                 <div class="black">
-                  <img class="demo" src="assets/unity-graphic.png" style="width:100%">
+                  <img id="demo1" class="demo" src="assets/unity-graphic.png" style="width:100%">
                 </div>
                 <div class="caption-container"><p class="slide">Graphic Work - Unity Books Bookmark - </p></div>
               </div>
 
-              <div class="mySlides">
-                <span class="close cursor" onclick="closeModal()">&#9587;</span>
-                <div class="numbertext">4 / 9</div>
-                <div class="black">
-                  <div class='embed-container'><iframe class="demo" src="https://player.vimeo.com/video/299166184" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div></div>
-                  <div class="caption-container"><p class="slide">Data Visualisation Video - </p></div>
-                </div>
-
+               <div class="mySlides">
+            <span class="close cursor" onclick="closeModal()">&#9587;</span>
+            <div class="numbertext">3 / 10</div>
+            <div class="black">
+              <img id="demo1" class="demo" src="assets/info_pic.png" style="width:100%"></div>
+              <div class="caption-container"><p class="slide">Graphic Work - Rebranding New Zealand - </p></div>
+              </div>
 
                 <div class="mySlides">
                   <span class="close cursor" onclick="closeModal()">&#9587;</span>
+                  <div class="numbertext">4 / 10</div>
                   <div class="black">
-                    <div class="numbertext">5 / 9</div>
-                    <img class="demo" src="assets/print_pic2.png" style="width:100%">
+                    <div id="demo1" class='embed-container'><iframe class="demo" src='https://player.vimeo.com/video/300677537' frameborder='0' webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe></div></div>
+              <div class="caption-container"><p class="slide">Audio Visual Project - </p></div>
+            </div>
+
+
+              <div class="mySlides">
+                <span class="close cursor" onclick="closeModal()">&#9587;</span>
+                <div class="numbertext">5 / 10</div>
+                <div class="black">
+                  <div  id="demo1" class='embed-container'><iframe class="demo" src="https://player.vimeo.com/video/299166184" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div></div>
+                  <div class="caption-container"><p class="slide">Data Visualisation Video - </p></div>
+                </div>
+
+                <div class="mySlides">
+                  <span class="close cursor" onclick="closeModal()">&#9587;</span>
+                  <div class="numbertext">6 / 10</div>
+                  <div class="black">
+                    <img  id="demo1" class="demo" src="assets/print_pic2.png" style="width:100%">
                   </div>
                   <div class="caption-container"><p class="slide">3D Printing and Simulations - </p></div>
                 </div>
 
                 <div class="mySlides">
                   <span class="close cursor" onclick="closeModal()">&#9587;</span>
-                  <div class="numbertext">6 / 9</div>
+                  <div class="numbertext">7 / 10</div>
                   <div class="black">
-                    <img class="demo" src="assets/3d_pic.png" style="width:100%">
+                    <img  id="demo1" class="demo" src="assets/3d_pic.png" style="width:100%">
                   </div>
                   <div class="caption-container"><p class="slide">3D Material Exploration - </p></div>
                 </div>
 
                 <div class="mySlides">
                   <span class="close cursor" onclick="closeModal()">&#9587;</span>
-                  <div class="numbertext">7 / 9</div>
+                  <div class="numbertext">8 / 10</div>
                   <div class="black">
-                    <img class="demo" src="assets/3d_pic2.png" style="width:100%">
+                    <img  id="demo1" class="demo" src="assets/3d_pic2.png" style="width:100%">
                   </div>
                   <div class="caption-container"><p class="slide">3D Animation - </p></div>
                 </div>
 
                 <div class="mySlides">
                   <span class="close cursor" onclick="closeModal()">&#9587;</span>
-                  <div class="numbertext">8 / 9</div>
+                  <div class="numbertext">9 / 10</div>
                   <div class="black">
-                    <img class="demo" src="assets/3d_pic3.png" style="width:100%">
+                    <img  id="demo1" class="demo" src="assets/3d_pic3.png" style="width:100%">
                   </div>
                   <div class="caption-container"><p class="slide">Toi Poneke Exhibition Collaboration - </p></div>
                 </div>
 
                 <div class="mySlides">
                   <span class="close cursor" onclick="closeModal()">&#9587;</span>
-                  <div class="numbertext">9 / 9</div>
+                  <div class="numbertext">10 / 10</div>
                   <div class="black">
-                    <img class="demo" src="assets/coding_pic.png" style="width:100%">
+                    <img id="demo1" class="demo" src="assets/coding_pic.png" style="width:100%">
                   </div>
                   <div class="caption-container"><p class="slide">Coding Experiments - for a live version click <a class="code" href="https://bl.ocks.org/Putitontheground">here</a> - </p></div>
                 </div>
@@ -115,30 +149,30 @@
 
               </div>   
             </div>
-          </div>
+      </div>
 
-          <div class="about">
-            <button class="collapsible">CONTACT ME</button>
-            <div class="content">
-              <p class="two"><strong>Email:</strong> edward-smith-@outlook.com<br><strong>Phone:</strong> 02108457235 <br><br>I’m a recent graduate from Victoria University of Wellington where I studied a Bachelor of Design Innovation in Media Design with a specialisation in Video Design, 3D and Animation.<br><br>I am a multi-faceted detail oriented designer with a passion for all things video, if I sound like a fit for your team or project feel free to contact me on the info provided.
-
-
-                <br><br><a class="cv" href="assets/Resume.pdf" download="resume">Download my Resume</a><br><br></p>
-
-              </div>
-            </div>
-
-            <footer><br><br><br><br><br><br><br><br><br><br>Made by Edward Smith <br>
-            &copy; Copyright 2019</footer>
-
-          </div>
+    <div class="about">
+      <button class="collapsible">CONTACT ME</button>
+        <div class="content">
+          <p class="two"><strong>Email:</strong> edward-smith-@outlook.com<br><strong>Phone:</strong> 02108457235 <br><br>I’m a recent graduate from Victoria University of Wellington where I studied a Bachelor of Design Innovation in Media Design with a specialisation in Video Design, 3D and Animation.<br><br>I am a multi-faceted detail oriented designer with a passion for all things video, if I sound like a fit for your team or project feel free to contact me on the info provided.
 
 
-          <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.js"></script>
-          <script src="scripts/script.js"></script>
+          <br><br><a class="cv" href="assets/Resume.pdf" download="resume">Download my Resume</a><br><br></p>
+         
+      </div>
+    </div>
+
+  <footer><br><br><br><br><br><br><br><br><br><br>Made by Edward Smith<br>
+  &copy; Copyright 2019 </footer>
+
+  </div>
 
 
-        </body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.js"></script>
+<script src="scripts/script.js"></script>
 
 
-        </html>
+</body>
+
+
+</html>
