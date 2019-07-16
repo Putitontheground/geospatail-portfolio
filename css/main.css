@@ -18,7 +18,7 @@ h2 {
   margin: 0 0 10 0px;
   padding: 25px 0px 0px 10px;
   font-weight: 400;
-  font-size: 1.3em;
+  font-size: 1.6em;
   font-style: normal;
   width: 100%;
   text-align: left;
@@ -26,17 +26,17 @@ h2 {
 
 h3 {
   font-weight: 400;
-  font-size: 1.2em;
+  font-size: 1.7em;
   margin: 5px 0px 0px 10px;
   padding-right: 20px;
   text-align: right;
 }
-
-div.container:hover h3 { font-style: italic; }
+h3:hover { font-style: italic; }
 
 div.other {
   margin-top:20px;
   border-top: 1.5px solid black;
+  border-right: 1.5px solid black;
 }
 
 div.about {
@@ -159,14 +159,17 @@ article {
 .collapsible {
   font-family: halyard-display, sans-serif;
   font-weight: 400;
-  font-size: 1.3em;
+  font-size: 1.6em;
   font-style: normal;
+  border-right: 1.5px solid black;
+  border-top:none;
+  border-left: none;
+  border-bottom: none;
   background-color: rgba(255,255,255,0);
   color: black;
   cursor: pointer;
   padding: 45px 10px 18px 10px;
   width: 100%;
-  border:none;
   outline: none;
   text-align: left;
   -webkit-transition: all 1s ease;
@@ -399,7 +402,7 @@ p#caption {
 @media only screen and (min-width: 992px) {
 
   body {
-    padding: 4% 20% 4% 20%;
+    padding: 4% 25% 4% 25%;
   }
 
   h1 {
@@ -432,7 +435,7 @@ p#caption {
 @media only screen and (min-width: 1200px) {
 
   body {
-    padding: 4% 20% 4% 20%;
+    padding: 4% 25% 4% 25%;
   }
 
   h1 {
