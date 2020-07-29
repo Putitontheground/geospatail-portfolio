@@ -4,6 +4,12 @@ body {
   background: white;
 }
 
+main {
+  font-family: halyard-display, sans-serif;
+  font-style: normal;
+  background: white;
+}
+
 h1 {
   margin: 0px 0px 0px 0px;
   font-weight: 700;
