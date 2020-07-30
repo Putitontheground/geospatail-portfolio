@@ -1,39 +1,36 @@
 body {
   font-family: halyard-display, sans-serif;
   font-style: normal;
-  background: white;
+  background: black;
 }
 
-main {
-  font-family: halyard-display, sans-serif;
-  font-style: normal;
-  background: white;
-}
-
-h1 {
-  margin: 0px 0px 0px 0px;
+.main {
+  margin-left: 10%;
+  margin-top: 10%;
+  color: white;
+  font-size: 2em;
   font-weight: 700;
-  font-size: 2.2em;
-  font-style: normal;
-  width: 100%;
-  text-align: left;
 }
 
-h2 {
-  font-weight: 400;
-  font-size: 1.6em;
-  font-style: normal;
-  width: 100%;
-  text-align: left;
+a{
+  text-decoration: none;
 }
 
-.bgimage {
-  width:  50%;
+
+.main .char {
+  animation: animate 3s ease-in-out infinite;
+  transform: translateY(-2em);
+  animation-delay: calc(0.05s * var(--char-index));
 }
 
-.bg {
-  width: 50vw;
-  top: 0px;
-  position: absolute;
-  right:0px;
+@keyframes animate
+{
+  0%,100%
+  {
+    transform: translateY(-2.5em) rotate(-20deg);
+  }
+    50%
+  {
+    transform: translateY(2.5em) rotate(20deg);
+  }
 }
