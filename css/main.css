@@ -59,7 +59,7 @@ h4 {
 }
 
 p{
-  color: white;
+  color: black;
   font-weight: 300;
 
 }
@@ -81,7 +81,7 @@ p{
   display: block;
   float: left;
   flex: 0 0 auto;
-  background-color: #f3f3f3;
+  background-color: #fff;
   margin-bottom: 50px;
 }
 
