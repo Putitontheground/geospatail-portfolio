@@ -10,9 +10,8 @@ body {
 
 .main {
   margin-top: 10%;
-  margin-bottom:  10%;
   color: black;
-  font-size: 3rem;
+  font-size: 2rem;
   font-weight: 700;
 }
 
@@ -23,6 +22,16 @@ a.title{
 a.images{
   color: black;
   margin-top: 150px;
+  text-decoration-color: black;
+
+}
+
+img.main {
+  border: 1px solid black;
+}
+
+a.about {
+  text-decoration: none; 
 }
 
 
@@ -61,6 +70,7 @@ h4 {
 p{
   color: black;
   font-weight: 300;
+  font-size: 1.2rem;
 
 }
 
@@ -107,7 +117,8 @@ p{
 
 a.back{
   color: black;
-  text-decoration: none
+  text-decoration: none;
+  text-decoration-color: black;
 }
 
 a.inline {
@@ -118,6 +129,7 @@ iframe,img {
   margin:25px auto 50px auto;
   width: 100%;
   border-top: 1px solid black;
+  border-bottom: 1px solid black;
 }
 
 img {
@@ -160,19 +172,6 @@ img {
 }
 
 
-
-
-@keyframes animate
-{
-  0%,100%
-  {
-    transform: translateY(-1.2em) rotate(-20deg);
-  }
-    50%
-  {
-    transform: translateY(1.2em) rotate(20deg);
-  }
-}
 
 @media only screen and (max-width: 400px) {
   .main {
