@@ -4,15 +4,7 @@ body {
   background: white;
   width: 60%;
   margin: 30px auto;
-}
-
-
-
-.main {
-  margin-top: 10%;
-  color: black;
-  font-size: 2rem;
-  font-weight: 700;
+  max-width: 640px;
 }
 
 a.title{ 
@@ -27,24 +19,23 @@ a.images{
 }
 
 img.main {
-  border: 1px solid black;
+  margin-top: 10px;
+  border-bottom: 1px solid black;
 }
 
 a.about {
   text-decoration: none; 
 }
 
-
-.main .char {
-  animation: animate 3s ease-in-out infinite;
-  transform: translateY(-.5em);
-  animation-delay: calc(0.05s * var(--char-index));
-}
-
 .videos{
   margin: auto;
   align-items: center;
+}
 
+h1 {
+  color: black;
+  font-size: 2rem;
+  font-weight: 700;
 }
 
 h3 {
@@ -53,7 +44,10 @@ h3 {
   color: black;
   font-weight: 600;
   text-decoration: underline;
+}
 
+h3.link {
+  text-decoration: none;
 }
 
 h4 {
@@ -62,9 +56,9 @@ h4 {
   justify-content: flex-start;
   align-content: stretch;
   flex: 0 0 auto;
-  margin-top: 50px;
   font-size: 1.5rem;
   font-weight: 300;
+  margin: 0px 0px 0px 0px;
 }
 
 p{
@@ -125,11 +119,13 @@ a.inline {
   color: black;
 }
 
+.player {
+  border: 1px solid black;
+}
+
 iframe,img {
-  margin:25px auto 50px auto;
+  margin: 2.5% auto 5% auto;
   width: 100%;
-  border-top: 1px solid black;
-  border-bottom: 1px solid black;
 }
 
 img {
@@ -174,7 +170,7 @@ img {
 
 
 @media only screen and (max-width: 400px) {
-  .main {
+  h1 {
     font-size: 1.2rem;
   }
   h3{
@@ -189,8 +185,8 @@ img {
   body {
     width: 95%;
   }
-  .main {
-    font-size: 2rem;
+  h1 {
+    font-size: 1.5rem;
   }
   h3{
     font-size: 1.2rem
