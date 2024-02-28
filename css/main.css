@@ -193,6 +193,11 @@ p, ul, li {
   padding: 0;
 }
 
+.article-2  {
+  border-bottom: 1px dashed #ab8d74;
+  margin-bottom: 20px;
+}
+
 .photos img {
   display: block;
   float: left;
@@ -241,6 +246,10 @@ iframe,img {
 
 img {
   height: auto;
+}
+
+.article-img {
+  padding: 20px 0px;
 }
 
 @media screen and (max-width: 900px) {
