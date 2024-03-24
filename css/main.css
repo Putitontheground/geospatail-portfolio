@@ -207,6 +207,10 @@ p, ul, li {
   margin-bottom: 50px;
 }
 
+.article {
+  margin-bottom: 20px;
+}
+
 .hide {
   visibility: hidden;
   opacity: 0;
