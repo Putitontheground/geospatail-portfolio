@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Edward Smith</title>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<meta name="description" content="Edward Smith Design" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.css" />
+	<link rel="stylesheet" href="https://use.typekit.net/eew7hlm.css">
+	<link rel="stylesheet" href="/css/main.css" />
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.js"></script>
+	<script src="scripts/script.js"></script>
+
+</head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-8E1E0KRW9H"></script>
+<script>
+	window.dataLayer = window.dataLayer || [];
+	function gtag() { dataLayer.push(arguments); }
+	gtag('js', new Date());
+
+	gtag('config', 'G-8E1E0KRW9H');
+</script>
+
+<body>
+	<header>
+		<section>
+			<div class="header">
+				<a class="h-h1" href="/">
+					<h1 class="h-h1">Karst</h1>
+				</a>
+			</div>
+		</section>
+	</header>
+	<section class="main">
+		<div class="box-1">
+			<div>
+				<h3>Edward Smith</h3>
+				<p>Personal blog for Postgraduate Diploma in Geospatial Science</p>
+				<h3>Experience</h3>
+				<a class="title" href="mailto:edward@karst.nz" style="text-decoration: underline;">
+					<h3>Contact me ⇝</h3>
+				</a>
+			</div>
+			<div>
+
+			</div>
+		</div>
+
+		<div class="box-2">
+			<div>
+				<h3>Lab 4 - Vector Analysis </h3>
+			</div>
+
+			<div class="work">
+				<div class="article-2">
+					<h4>
+					</h4>
+					<p>
+					<h4>Vector Analysis of Manawatu Gorge Alternatives</h4>
+					<img class="article-img" src="/assets/LayoutLandscape2.jpg">
+					<p>Lab 4 involved vector analysis of 4 possible routes through the Manawatu Gorge, the map pictured
+						displays our chosen options. Each route will be assessed for its impact on the land cover and
+						the impact of the slope along each path. </p>
+				</div>
+				<div class="article-2">
+
+					<h4>Landcover Analysis</h4>
+					<p>I took the data from ArcGIS and created some graphs in Python. Excel is rather restrictive with
+						the charts and I found this the best way to display the data. As expected in the land cover
+						analysis, the longer routes have a greater amount of land cover impacted. All routes cut through
+						a significant amount of farmland, routes 1 and 3 cut through the most amount of indigenous
+						forest. Route 3 and 4 have the most impact on built up areas. </p>
+
+					<img class="article-img" src="/assets/landcover_area_by_route.png">
+
+					<p>The slope analysis showed that route 1 would involve the most amount of work, this is expected as
+						it is the longest and as seen on the map the path cuts through the mountain range. Route 3 looks
+						to be the best route based purely on slope impact analysis.</p>
+
+					<img class="article-img" src="/assets/slope_area_by_route.png">
+
+					<p>The ranking system I came up with was simple though I felt it was effective, it ranks each route's land cover area on a scale of 1-4 (1 being the lowest area, 4 being the highest). If a route has no value in a given type of land cover it is given a score of 0. It does the same for slope, it then tallies the score for each on a table and gives the route an overall total score.</p>
+
+<p>I had a go a creating this in python too, although I don&rsquo;t know if this was the best way to display it, the heatmap may have been unnecessary.</p>
+
+<p>With this ranking system it deemed Route 2 to be the best, having the lowest impact across the board despite it being longer and on more of a slope than route 3.</p>
+<img class="article-img" src="/assets/landcover_combined_scores_heatmap4.png">
+				</div>
+
+			</div>
+
+
+		</div>
+		<div class="box-3">
+			<div>
+				<h3>Lab Work</h3>
+			</div>
+			<div class="work">
+				<div class="">
+					<div class="article">
+						<a class="images" href="/pages/lab1.html">
+							<div class="text-block">
+								<h4>Lab 1 - Coordinate Systems</h4>
+							</div>
+						</a>
+					</div>
+					<div class="article">
+						<a class="images" href="/pages/lab2.html">
+							<div class="text-block">
+								<h4>Lab 2 - Cartographic Design</h4>
+							</div>
+						</a>
+					</div>
+					<div class="article">
+						<a class="images" href="/pages/lab3.html">
+							<div class="text-block">
+								<h4>Lab 3 - Web GIS</h4>
+							</div>
+						</a>
+					</div>
+					<div class="article">
+						<a class="images" href="/pages/lab4.html">
+							<div class="text-block">
+								<h4>Lab 4 - Vector Analysis</h4>
+							</div>
+						</a>
+					</div>
+
+				</div>
+			</div>
+		</div>
+
+	</section>
+	<footer>
+		<section>
+			<div>
+				<p class="f-p">© Copyright Edward Smith 2024. </p>
+			</div>
+		</section>
+	</footer>
+</body>
+
+</html>
