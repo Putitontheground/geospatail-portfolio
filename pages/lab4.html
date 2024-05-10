@@ -80,13 +80,19 @@
 						to be the best route based purely on slope impact analysis.</p>
 
 					<img class="article-img" src="/assets/slope_area_by_route.png">
+					<p>The ranking system I developed is simple yet effective. Each route's land cover area is ranked on a scale of 1 to 4, with 1 indicating the lowest area and 4 representing the highest. If a route has no value for a particular land cover type, it is given a score of 0. The same scoring system is applied for slope. The scores for each land cover type and slope are then tallied in a table, giving each route an overall total score.</p>
 
-					<p>The ranking system I came up with was simple though I felt it was effective, it ranks each route's land cover area on a scale of 1-4 (1 being the lowest area, 4 being the highest). If a route has no value in a given type of land cover it is given a score of 0. It does the same for slope, it then tallies the score for each on a table and gives the route an overall total score.</p>
+					<p>This approach allows us to identify the route that has the least impact on the land. No preference is given to specific types of land use. Initially, I considered assigning different weights to certain categories, but I decided against it, as this analysis is intended for a quick overview rather than an in-depth assessment of environmental or human settlement impacts.</p>
+					
+					<p>Using this ranking system seen below, Route 2 was deemed the best option, as it had the lowest impact across the board, despite being longer and having a greater slope than Route 3.</p>
+					
+					<p>I attempted to visualize this data using Python, although I'm not sure a heatmap was the most appropriate display. A heatmap may be unnecessary, as it's often used to represent more complex relationships and gradients. Since the data is primarily categorical ranks (1-4, and 0), simpler visualizations like bar charts or ranked lists could convey the information more directly.</p>
+					
+					<p>Nevertheless, the heatmap provides a quick visual impression of which routes are more intensive in terms of land cover use across multiple types, which could justify its use depending on the audience and presentation goals.</p>
+					
+					<p>In conclusion, this ranking system provides a practical overview of the impact of different routes, especially when a quick assessment is required. If more detailed environmental impact studies are needed, integrating weights based on ecological or social value would be an effective enhancement.</p>
+					<img class="article-img" src="/assets/landcover_combined_scores_heatmap4.png">
 
-<p>I had a go at creating this in python too, although I don&rsquo;t know if this was the best way to display it, the heatmap may have been unnecessary.</p>
-
-<p>With this ranking system it deemed Route 2 to be the best, having the lowest impact across the board despite it being longer and on more of a slope than route 3.</p>
-<img class="article-img" src="/assets/landcover_combined_scores_heatmap4.png">
 				</div>
 
 			</div>
