@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Edward Smith</title>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<meta name="description" content="Edward Smith Design" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.css" />
+	<link rel="stylesheet" href="https://use.typekit.net/eew7hlm.css" />
+	<link rel="stylesheet" href="/css/main.css" />
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.js"></script>
+	<script src="scripts/script.js"></script>
+</head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-8E1E0KRW9H"></script>
+<script>
+	window.dataLayer = window.dataLayer || [];
+	function gtag() {
+		dataLayer.push(arguments);
+	}
+	gtag("js", new Date());
+
+	gtag("config", "G-8E1E0KRW9H");
+</script>
+
+<body>
+	<header>
+		<section>
+			<div class="header">
+				<a class="h-h1" href="/">
+					<h1 class="h-h1">Karst</h1>
+				</a>
+			</div>
+		</section>
+	</header>
+	<section class="main">
+		<div class="box-1">
+			<div>
+				<h3>Edward Smith</h3>
+				<p>Personal blog for Postgraduate Diploma in Geospatial Science</p>
+				<h3>Experience</h3>
+				<a class="title" href="mailto:edward@karst.nz" style="text-decoration: underline">
+					<h3>Contact me ⇝</h3>
+				</a>
+			</div>
+			<div></div>
+		</div>
+
+		<div class="box-2">
+			<div>
+				<h3>Lab 5 - Raster Analysis</h3>
+			</div>
+
+			<div class="work">
+				<div class="article-2">
+					<h1>Agroforestry Suitability Analysis</h1>
+					<h4>1. Define the Problem</h4>
+					<p>
+						The project aims to identify suitable land for different
+						agroforestry crops in Fiji's Sigatoka Valley, focusing exclusively
+						on soil-related and environmental factors. This clear definition
+						helps target the study's efforts directly towards the factors that
+						influence crop viability, ensuring that the analysis is relevant
+						and manageable.
+					</p>
+
+					<h4>2. Structure the Problem</h4>
+					<p>
+						To structure the problem, we identified the necessary data layers
+						based on the cultivation criteria for the crops. These criteria were
+						compiled into a reference table, outlining the GIS datasets
+						needed. This step is crucial as it maps out the variables and data
+						structures required for the spatial analysis, ensuring that all
+						essential factors are considered.
+					</p>
+
+					<h4>3. Acquire and Prepare Data</h4>
+					<p>
+						The data was sourced from various established databases and
+						resources. The preparation
+						involved several key processes:
+					</p>
+				</div>
+				<div class="article-2">
+					<img class="article-img" src="/assets/lab5-tool.png">
+					<h4>Converting Vector Data to Raster</h4>
+					<p>
+						This was essential for handling soil data, which originally
+						existed in vector format. The conversion facilitates easier
+						manipulation and analysis in GIS.
+					</p>
+
+					<h4>Generating Slope Data from Elevation</h4>
+					<p>
+						Using digital elevation models, we converted elevation data to
+						slope data, crucial for evaluating terrain suitability.
+					</p>
+
+					<h4>Creating Climatic Rasters via IDW Interpolation</h4>
+					<p>
+						We interpolated point data for rainfall and temperature to create
+						continuous raster surfaces, providing a detailed environmental
+						overview.
+					</p>
+
+					<p>
+						These preparation steps were fundamental to ensuring that the GIS
+						data was ready for detailed spatial analysis, setting the stage
+						for our next analysis phase which was to combine the three maps to find areas which all crops
+						could be grown.
+					</p>
+				</div>
+				<div class="article-2">
+					<h3>Spatial Analysis of Crop Suitability</h3>
+					<img class="article-img" src="/assets/lab5_3maps.jpg">
+					<h1></h1>
+				</div>
+					<p>The spatial analysis provided clear insights into the distribution and suitability of land for
+						the specified crops:</p>
+						<h4>Vesi (Intsia bijuga):</h4>
+						<p>This crop showed the least suitability, with only 7,651
+								hectares being appropriate for its cultivation. This indicates limited growth
+							potential for Vesi possibly due to it's restrictive requirements for good growth and the regions varied environmental conditions.</p>
+					
+						<h4>Cutnut (Barringtonia edulis):</h4>
+						<p>Demonstrated a higher level of suitability, with 116,112
+								hectares deemed suitable. This suggests that the region's environmental
+							conditions are favorable for cutnut cultivation, potentially making it a key agricultural
+							asset.</p>
+						<h4>Breadfruit (Artocarpus altilis):</h4>
+						<p>Had a substantial proportion of suitable land, with 55,580
+								hectares. This indicates that breadfruit can thrive over a wide area, likely due to it's tolerance for growing at higher elevations</p>
+					</div>
+					<div class="summary">
+						<h2>Key Observation:</h2>
+						<p>A noteworthy observation from the analysis is that the total area suitable for all three
+							crops corresponds precisely to the area suitable for Vesi (Intsia bijuga), suggesting that the specific
+							conditions required for Vesi cultivation are the limiting factor for multi-crop cultivation
+							in this region.</p>
+							<p>
+								Below is a map outlining the areas which are suitable for all three crops.
+							</p>
+					</div>
+					<img class="article-img" src="/assets/lab5_layout.jpg">
+				</div>
+			</div>
+		</div>
+		<div class="box-3">
+			<div>
+				<h3>Lab Work</h3>
+			</div>
+			<div class="work">
+				<div class="">
+					<div class="article">
+						<a class="images" href="/pages/lab1.html">
+							<div class="text-block">
+								<h5>Lab 1 - Coordinate Systems</h5>
+							</div>
+						</a>
+					</div>
+					<div class="article">
+						<a class="images" href="/pages/lab2.html">
+							<div class="text-block">
+								<h5>Lab 2 - Cartographic Design</h5>
+							</div>
+						</a>
+					</div>
+					<div class="article">
+						<a class="images" href="/pages/lab3.html">
+							<div class="text-block">
+								<h5>Lab 3 - Web GIS</h5>
+							</div>
+						</a>
+					</div>
+					<div class="article">
+						<a class="images" href="/pages/lab4.html">
+							<div class="text-block">
+								<h5>Lab 4 - Vector Analysis</h5>
+							</div>
+						</a>
+					</div>
+					<div class="article">
+						<a class="images" href="/pages/lab5.html">
+							<div class="text-block">
+								<h5>Lab 5 - Raster Analysis</h5>
+							</div>
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<footer>
+		<section>
+			<div>
+				<p class="f-p">© Copyright Edward Smith 2024.</p>
+			</div>
+		</section>
+	</footer>
+</body>
+
+</html>

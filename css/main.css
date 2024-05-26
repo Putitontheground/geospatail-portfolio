@@ -166,6 +166,18 @@ h4 {
   align-content: stretch;
   flex: 0 0 auto;
   font-size: 1rem;
+  font-weight: 400;
+  margin: 0px 0px 0px 0px;
+}
+
+h5 {
+  flex-direction: row;
+  text-align: left;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-content: stretch;
+  flex: 0 0 auto;
+  font-size: 1rem;
   font-weight: 300;
   margin: 0px 0px 0px 0px;
 }
