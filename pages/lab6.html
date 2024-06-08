@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Edward Smith</title>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<meta name="description" content="Edward Smith Design" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.css" />
+	<link rel="stylesheet" href="https://use.typekit.net/eew7hlm.css" />
+	<link rel="stylesheet" href="/css/main.css" />
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.js"></script>
+	<script src="scripts/script.js"></script>
+</head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-8E1E0KRW9H"></script>
+<script>
+	window.dataLayer = window.dataLayer || [];
+	function gtag() {
+		dataLayer.push(arguments);
+	}
+	gtag("js", new Date());
+
+	gtag("config", "G-8E1E0KRW9H");
+</script>
+
+<body>
+	<header>
+		<section>
+			<div class="header">
+				<a class="h-h1" href="/">
+					<h1 class="h-h1">Karst</h1>
+				</a>
+			</div>
+		</section>
+	</header>
+	<section class="main">
+		<div class="box-1">
+			<div>
+				<h3>Edward Smith</h3>
+				<p>Personal blog for Postgraduate Diploma in Geospatial Science</p>
+				<h3>Experience</h3>
+				<a class="title" href="mailto:edward@karst.nz" style="text-decoration: underline">
+					<h3>Contact me ⇝</h3>
+				</a>
+			</div>
+			<div></div>
+		</div>
+
+		<div class="box-2">
+			<div>
+                <h3>Spatial Statistics</h3>
+            </div>
+
+            <div class="work">
+                <div class="article-2">
+                    <h1>Analysis of Cholera Data Using Spatial Statistics</h1>
+                    <h4>Introduction</h4>
+                    <p>
+                        The objective of this analysis is to identify spatial patterns and clusters in the cholera outbreak data using spatial statistics. By analyzing the spatial distribution of cholera cases in the provided dataset, we aim to determine whether the data shows significant clustering and identify the locations of these clusters. Two spatial statistical techniques, Getis-Ord Gi* and Local Moran's I, are employed to analyze the spatial pattern.
+                    </p>
+
+                    <h4>Methods</h4>
+                    <p>
+                        <strong>Getis-Ord Gi*</strong>: This method identifies hot and cold spots within the dataset. Areas with high values surrounded by other high values are considered hot spots, whereas areas with low values surrounded by other low values are cold spots. The statistical significance of these spots is determined at different confidence levels (90%, 95%, and 99%).
+                    </p>
+                    <p>
+                        <strong>Local Moran's I</strong>: This method identifies local clusters and outliers. It classifies areas into high-high clusters, low-low clusters, high-low outliers, and low-high outliers. Like Getis-Ord Gi*, it also assesses statistical significance at various confidence levels.
+                    </p>
+                    <p>
+                        <strong>Global Moran's I</strong>: This provides an overall measure of spatial autocorrelation in the dataset. A significant Moran's I indicates that the data is more clustered or dispersed than would be expected under random conditions.
+                    </p>
+
+                    <h4>Results</h4>
+                    <p>
+                        <strong>Getis-Ord Gi* Analysis</strong>: The Getis-Ord Gi* analysis reveals several statistically significant hot spots (areas with a high concentration of cholera cases) around Broad Street, with confidence levels up to 99%. There are no significant cold spots in the study area.
+                    </p>
+                    <img style="border: 1px solid black;" class="article-img" src="/assets/Getis.jpg" alt="Getis-Ord Gi*">
+                    <p>
+                        <strong>Local Moran's I Analysis</strong>: The Local Moran's I analysis identifies high-high clusters (areas with a high concentration of cholera cases surrounded by other high concentration areas) predominantly around Broad Street. Some high-low and low-high outliers are also detected, indicating areas where the cholera cases are either significantly higher or lower than their neighbors.
+                    </p>
+                    <img style="border: 1px solid black;" class="article-img" src="/assets/localmorans.jpg" alt="Local Moran's I">
+                    <p>
+                        <strong>Global Moran's I Summary</strong>: The Global Moran's I summary shows a Moran's Index of 0.037603, a z-score of 2.196886, and a p-value of 0.028029. This indicates a less than 5% likelihood that the observed clustered pattern is due to random chance, thus confirming significant spatial autocorrelation.
+                    </p>
+                    <img class="article-img" src="/assets/global-morans-i.png" alt="Global Moran's I">
+                    <img class="article-img" src="/assets/spatial-auto-correlation-report.png" alt="Spatial Autocorrelation Report">
+                </div>
+
+                <div class="article-2">
+                    <h4>Discussion</h4>
+                    <p>
+                        The Getis-Ord Gi* and Local Moran's I analyses both indicate significant clustering of cholera cases around Broad Street, suggesting a second-order process where interactions between cases (such as contamination from a common source) are influencing the spatial pattern. The presence of high-high clusters and significant hot spots aligns with the hypothesis that cholera cases are not randomly distributed but are influenced by localized factors, such as proximity to contaminated water sources.
+                    </p>
+                    <p>
+                        The Global Moran's I statistic supports these findings, demonstrating significant spatial autocorrelation in the dataset. This reinforces the conclusion that the distribution of cholera cases is not random and is likely influenced by environmental and social factors.
+                    </p>
+                    <p>
+                        In conclusion, the spatial statistical analysis using Getis-Ord Gi* and Local Moran's I provides a clear understanding of the clustering patterns in the cholera data. These techniques effectively highlight the areas of high cholera concentration and offer insights into the underlying spatial processes, aiding in better understanding and management of such outbreaks.
+                    </p>
+                </div>
+            </div>
+        </div>
+		</div>
+		<div class="box-3">
+			<div>
+				<h3>Lab Work</h3>
+			</div>
+			<div class="work">
+				<div class="">
+					<div class="article">
+						<a class="images" href="/pages/lab1.html">
+							<div class="text-block">
+								<h5>Lab 1 - Coordinate Systems</h5>
+							</div>
+						</a>
+					</div>
+					<div class="article">
+						<a class="images" href="/pages/lab2.html">
+							<div class="text-block">
+								<h5>Lab 2 - Cartographic Design</h5>
+							</div>
+						</a>
+					</div>
+					<div class="article">
+						<a class="images" href="/pages/lab3.html">
+							<div class="text-block">
+								<h5>Lab 3 - Web GIS</h5>
+							</div>
+						</a>
+					</div>
+					<div class="article">
+						<a class="images" href="/pages/lab4.html">
+							<div class="text-block">
+								<h5>Lab 4 - Vector Analysis</h5>
+							</div>
+						</a>
+					</div>
+					<div class="article">
+						<a class="images" href="/pages/lab5.html">
+							<div class="text-block">
+								<h5>Lab 5 - Raster Analysis</h5>
+							</div>
+						</a>
+					</div>
+                    <div class="article">
+						<a class="images" href="/pages/lab6.html">
+							<div class="text-block">
+								<h5>Lab 6 - Spatial Statistics</h5>
+							</div>
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<footer>
+		<section>
+			<div>
+				<p class="f-p">© Copyright Edward Smith 2024.</p>
+			</div>
+		</section>
+	</footer>
+</body>
+
+</html>
